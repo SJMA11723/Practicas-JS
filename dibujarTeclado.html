@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dibujos</title>
+</head>
+
+<body>
+    <h1>Dibujando con el teclado y mouse</h1>
+
+    <p>Empiezas en el punto que quieras y te mueves con las flechas del teclado. Igual puedes dibujar haciendo click y manteniéndolo mientras mueves el mouse.
+    </p>
+
+    <label>Ingresa el ancho que deseas (px):</label>
+    <input type="text" id="txtWidth" />
+    <br>
+    <label>Ingresa el largo que deseas (px):</label>
+    <input type="text" id="txtHeight" />
+    <br>
+    <label>¿Cu&aacute;nto quieres recorrer al moverte? (px)</label>
+    <input type="text" id="txtLength" />
+    <br>
+    <label>Elige tus coordenadas para comenzar (x, y)</label>
+    <input type="text" placeholder="x" id="txtCoordX" />
+    <input type="text" placeholder="y" id="txtCoordY" />
+    <br>
+    <input type="button" value="¡Empezar!" id="btnStart" />
+    <br> <br>
+
+    <canvas id="canvasTeclado"></canvas>
+
+    <script src="js/dibujoTeclado.js"></script>
+</body>
+
+</html>
